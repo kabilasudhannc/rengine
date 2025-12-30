@@ -29,7 +29,7 @@ psycopg2==2.9.7
 pycvesearch==1.0
 redis==5.0.3
 requests==2.31.0
-scapy==2.4.3
+scapy==2.7.0rc1
 sqlalchemy==1.4.52
 tldextract==3.5.0
 uro==1.0.0
@@ -42,3 +42,4 @@ xmltodict==0.13.0
 django-environ==0.11.2
 plotly==5.23.0
 kaleido
+filelock>=3.20.1 # not directly required, pinned by Snyk to avoid a vulnerability
